@@ -12,5 +12,6 @@
 
 @property(strong, nonatomic) NSArray *arrayTitle;
 @property(strong, nonatomic) NSArray *arrayYear;
+@property(strong, nonatomic) NSArray *arrayThumbnail;
 
 @end

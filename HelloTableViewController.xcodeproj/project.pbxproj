@@ -19,6 +19,7 @@
 		395A41E01876BD9C001B5904 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 395A41BF1876BD9A001B5904 /* Foundation.framework */; };
 		395A41E11876BD9C001B5904 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 395A41C31876BD9A001B5904 /* UIKit.framework */; };
 		395A41F61876BDF9001B5904 /* GDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 395A41F51876BDF9001B5904 /* GDTableViewController.m */; };
+		39B268231876F22F001F707C /* GDTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 39B268221876F22E001F707C /* GDTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		395A41DE1876BD9C001B5904 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		395A41F41876BDF9001B5904 /* GDTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTableViewController.h; sourceTree = "<group>"; };
 		395A41F51876BDF9001B5904 /* GDTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDTableViewController.m; sourceTree = "<group>"; };
+		39B268211876F22D001F707C /* GDTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTableViewCell.h; sourceTree = "<group>"; };
+		39B268221876F22E001F707C /* GDTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 				395A41D11876BD9A001B5904 /* Main.storyboard */,
 				395A41F41876BDF9001B5904 /* GDTableViewController.h */,
 				395A41F51876BDF9001B5904 /* GDTableViewController.m */,
+				39B268211876F22D001F707C /* GDTableViewCell.h */,
+				39B268221876F22E001F707C /* GDTableViewCell.m */,
 				395A41D71876BD9B001B5904 /* Images.xcassets */,
 				395A41C61876BD9A001B5904 /* Supporting Files */,
 			);
@@ -227,6 +232,7 @@
 			files = (
 				395A41F61876BDF9001B5904 /* GDTableViewController.m in Sources */,
 				395A41CC1876BD9A001B5904 /* main.m in Sources */,
+				39B268231876F22F001F707C /* GDTableViewCell.m in Sources */,
 				395A41D01876BD9A001B5904 /* GDAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,6 +427,7 @@
 				395A41F01876BD9C001B5904 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		395A41F11876BD9C001B5904 /* Build configuration list for PBXNativeTarget "HelloTableViewControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -429,6 +436,7 @@
 				395A41F31876BD9C001B5904 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
