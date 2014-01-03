@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "39830E951875B8EE00AB59D0"
+               BlueprintIdentifier = "395A41BB1876BD99001B5904"
                BuildableName = "HelloTableViewController.app"
                BlueprintName = "HelloTableViewController"
                ReferencedContainer = "container:HelloTableViewController.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "39830EB61875B8EF00AB59D0"
+               BlueprintIdentifier = "395A41DC1876BD9C001B5904"
                BuildableName = "HelloTableViewControllerTests.xctest"
                BlueprintName = "HelloTableViewControllerTests"
                ReferencedContainer = "container:HelloTableViewController.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "39830E951875B8EE00AB59D0"
+            BlueprintIdentifier = "395A41BB1876BD99001B5904"
             BuildableName = "HelloTableViewController.app"
             BlueprintName = "HelloTableViewController"
             ReferencedContainer = "container:HelloTableViewController.xcodeproj">
@@ -61,7 +61,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "39830E951875B8EE00AB59D0"
+            BlueprintIdentifier = "395A41BB1876BD99001B5904"
             BuildableName = "HelloTableViewController.app"
             BlueprintName = "HelloTableViewController"
             ReferencedContainer = "container:HelloTableViewController.xcodeproj">
@@ -79,7 +79,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "39830E951875B8EE00AB59D0"
+            BlueprintIdentifier = "395A41BB1876BD99001B5904"
             BuildableName = "HelloTableViewController.app"
             BlueprintName = "HelloTableViewController"
             ReferencedContainer = "container:HelloTableViewController.xcodeproj">

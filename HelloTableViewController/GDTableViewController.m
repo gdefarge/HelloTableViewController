@@ -2,7 +2,7 @@
 //  GDTableViewController.m
 //  HelloTableViewController
 //
-//  Created by International on 1/2/14.
+//  Created by International on 1/3/14.
 //  Copyright (c) 2014 GD. All rights reserved.
 //
 
@@ -13,9 +13,6 @@
 @end
 
 @implementation GDTableViewController
-
-@synthesize arrayTitle = _arrayTitle;
-@synthesize arrayYear = _arrayYear;
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -29,7 +26,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
     
     // Populate the pseudo Model
     self.arrayTitle = [NSArray arrayWithObjects:@"The Shawshank Redemption",@"The Godfather",@"The Godfather: Part II",nil];
@@ -60,13 +56,11 @@
     static NSString *CellIdentifier = @"Cell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
-    // Configure the cell...
+    // Configure the cell
     NSString * movieTitle = [self.arrayTitle objectAtIndex:indexPath.row];
     cell.textLabel.text = movieTitle;
     
     return cell;
 }
-
-
 
 @end
